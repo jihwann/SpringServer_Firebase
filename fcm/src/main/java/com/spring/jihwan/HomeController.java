@@ -69,7 +69,9 @@ public class HomeController {
         	
             // C:/Users/LG/eclipse-workspace/Spring_FCM_Fush_Server/src/main/webapp/resources/google/seoulsky-c5295-firebase-adminsdk-9enbm-6973550e3b.json
         	// path OK
-        	String path = "C:/Users/LG/eclipse-workspace/Spring_FCM_Fush_Server/src/main/webapp/resources/google/seoulsky-c5295-firebase-adminsdk-9enbm-6973550e3b.json";             
+        	//String path = "C:/Users/LG/eclipse-workspace/fcm/src/main/webapp/resources/google/seoulsky-c5295-firebase-adminsdk-9enbm-6973550e3b.json";
+        	// path for aws
+        	String path = "/var/lib/tomcat9/webapps/fcm/resources/google/seoulsky-c5295-firebase-adminsdk-9enbm-6973550e3b.json";
             String MESSAGING_SCOPE = "https://www.googleapis.com/auth/firebase.messaging";
             String[] SCOPES = { MESSAGING_SCOPE };
             
